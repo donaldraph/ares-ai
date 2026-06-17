@@ -1,3 +1,24 @@
+# Virtual environments
 venv/
+.venv/
+**/venv/
+**/.venv/
+env/
+.env
+
+# Python caches / build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Bundled AWS CLI install (do not commit)
+aws/
 awscliv2.zip
+
+# Large archives
 ares_project.zip
+*.zip
+
+# OS / editor cruft
+.DS_Store
